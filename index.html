@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Future Frontiers HQ - Exploring Tomorrow's Possibilities</title>
+    <meta name="description" content="Discover the latest breakthroughs in technology, space exploration, AI, and innovation shaping our future.">
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link rel="alternate icon" href="data:image/x-icon;base64,AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAA">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        :root {
+            --primary-cyan: #00D4FF;
+            --primary-red: #FF006E;
+            --dark-bg: #0A0A0A;
+            --light-bg: #FFFFFF;
+            --text-primary: #1A1A1A;
+            --text-secondary: #6B7280;
+            --border-color: #E5E7EB;
+        }
+        
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: var(--light-bg);
+            color: var(--text-primary);
+        }
+        
+        .gradient-text {
+            background: linear-gradient(135deg, var(--primary-cyan), var(--primary-red));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .gradient-bg {
+            background: linear-gradient(135deg, var(--primary-cyan), var(--primary-red));
+        }
+        
+        .article-card {
+            transition: all 0.3s ease;
+            border: 1px solid var(--border-color);
+        }
+        
+        .article-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+        }
+        
+        .hero-gradient {
+            background: linear-gradient(135deg, rgba(0, 212, 255, 0.1), rgba(255, 0, 110, 0.1));
+        }
+        
+        .logo-text {
+            font-family: 'Playfair Display', serif;
+            font-weight: 700;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header class="bg-white border-b border-gray-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center py-6">
+                <div class="flex items-center">
+                    <div class="w-10 h-10 gradient-bg rounded-lg flex items-center justify-center mr-3">
+                        <span class="text-white font-bold text-xl">F</span>
+                    </div>
+                    <div>
+                        <h1 class="logo-text text-2xl gradient-text">Future Frontiers HQ</h1>
+                        <p class="text-sm text-gray-500">Exploring Tomorrow's Possibilities</p>
+                    </div>
+                </div>
+                <nav class="hidden md:flex space-x-8">
+                    <a href="#" class="text-gray-700 hover:text-gray-900 font-medium">Home</a>
+                    <a href="#" class="text-gray-700 hover:text-gray-900 font-medium">Technology</a>
+                    <a href="#" class="text-gray-700 hover:text-gray-900 font-medium">Space</a>
+                    <a href="#" class="text-gray-700 hover:text-gray-900 font-medium">AI</a>
+                    <a href="#" class="text-gray-700 hover:text-gray-900 font-medium">Innovation</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-gradient py-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center">
+                <h2 class="logo-text text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+                    The Future is <span class="gradient-text">Now</span>
+                </h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                    Discover groundbreaking innovations, space exploration breakthroughs, and AI advancements shaping our tomorrow.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Article -->
+    <section class="py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                <div class="md:flex">
+                    <div class="md:w-1/2">
+                        <img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
+                             alt="Space exploration" 
+                             class="w-full h-64 md:h-full object-cover">
+                    </div>
+                    <div class="md:w-1/2 p-8">
+                        <div class="flex items-center mb-4">
+                            <span class="bg-blue-100 text-blue-800 text-xs font-semibold px-2.5 py-0.5 rounded">Space Exploration</span>
+                            <span class="text-gray-500 text-sm ml-4">July 19, 2025</span>
+                        </div>
+                        <h3 class="logo-text text-2xl font-bold text-gray-900 mb-3">
+                            James Webb Telescope Discovers Ancient Galaxy That Challenges Our Understanding of the Universe
+                        </h3>
+                        <p class="text-gray-600 mb-4">
+                            Scientists are reeling from the discovery of a galaxy that appears to have formed just 200 million years after the Big Bang, challenging our fundamental understanding of cosmic evolution.
+                        </p>
+                        <div class="flex items-center">
+                            <div class="w-8 h-8 bg-gray-300 rounded-full mr-3"></div>
+                            <span class="text-sm text-gray-700 font-medium">Dr. Elena Rodriguez</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Articles Grid -->
+    <section class="py-12 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="logo-text text-3xl font-bold text-gray-900 mb-8">Latest Discoveries</h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                
+                <!-- Article 1 -->
+                <article class="article-card bg-white rounded-lg overflow-hidden">
+                    <img src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" 
+                         alt="AI Technology" 
+                         class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <div class="flex items-center mb-3">
+                            <span class="bg-purple-100 text-purple-800 text-xs font-semibold px-2.5 py-0.5 rounded">AI & Robotics</span>
+                            <span class="text-gray-500 text-sm ml-3">July 19, 2025</span>
+                        </div>
+                        <h3 class="text-xl font-bold text-gray-900 mb-2">
+                            Breakthrough AI System Achieves Human-Level Reasoning in Scientific Research
+                        </h3>
+                        <p class="text-gray-600 text-sm mb-4">
+                            A revolutionary AI system has demonstrated the ability to formulate novel scientific hypotheses and design experiments independently.
+                        </p>
+                        <div class="flex items-center">
+                            <div class="w-6 h-6 bg-gray-300 rounded-full mr-2"></div>
+                            <span class="text-sm text-gray-700">Marcus Chen</span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Article 2 -->
+                <article class="article-card bg-white rounded-lg overflow-hidden">
+                    <img src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" 
+                         alt="Quantum Computing" 
+                         class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <div class="flex items-center mb-3">
+                            <span class="bg-green-100 text-green-800 text-xs font-semibold px-2.5 py-0.5 rounded">Future Tech</span>
+                            <span class="text-gray-500 text-sm ml-3">July 18, 2025</span>
+                        </div>
+                        <h3 class="text-xl font-bold text-gray-900 mb-2">
+                            Quantum Computer Solves Previously Impossible Climate Modeling Problem
+                        </h3>
+                        <p class="text-gray-600 text-sm mb-4">
+                            IBM's latest quantum processor has successfully modeled complex atmospheric interactions that classical computers couldn't handle.
+                        </p>
+                        <div class="flex items-center">
+                            <div class="w-6 h-6 bg-gray-300 rounded-full mr-2"></div>
+                            <span class="text-sm text-gray-700">Sarah Kim</span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Article 3 -->
+                <article class="article-card bg-white rounded-lg overflow-hidden">
+                    <img src="https://images.unsplash.com/photo-1446776308082-174c64718819?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" 
+                         alt="Mars Colony" 
+                         class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <div class="flex items-center mb-3">
+                            <span class="bg-red-100 text-red-800 text-xs font-semibold px-2.5 py-0.5 rounded">Space Exploration</span>
+                            <span class="text-gray-500 text-sm ml-3">July 18, 2025</span>
+                        </div>
+                        <h3 class="text-xl font-bold text-gray-900 mb-2">
+                            First Self-Sustaining Mars Colony Successfully Produces Oxygen and Food
+                        </h3>
+                        <p class="text-gray-600 text-sm mb-4">
+                            The Perseverance II mission has achieved a historic milestone by creating the first fully self-sustaining habitat on Mars.
+                        </p>
+                        <div class="flex items-center">
+                            <div class="w-6 h-6 bg-gray-300 rounded-full mr-2"></div>
+                            <span class="text-sm text-gray-700">Commander Alex Rivera</span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Article 4 -->
+                <article class="article-card bg-white rounded-lg overflow-hidden">
+                    <img src="https://images.unsplash.com/photo-1518709268805-4e9042af2176?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" 
+                         alt="Fusion Energy" 
+                         class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <div class="flex items-center mb-3">
+                            <span class="bg-yellow-100 text-yellow-800 text-xs font-semibold px-2.5 py-0.5 rounded">Innovation</span>
+                            <span class="text-gray-500 text-sm ml-3">July 17, 2025</span>
+                        </div>
+                        <h3 class="text-xl font-bold text-gray-900 mb-2">
+                            Commercial Fusion Reactor Achieves Net Positive Energy Output for 30 Days
+                        </h3>
+                        <p class="text-gray-600 text-sm mb-4">
+                            Helion Energy's fusion reactor has maintained net positive energy output for a full month, marking a turning point in clean energy.
+                        </p>
+                        <div class="flex items-center">
+                            <div class="w-6 h-6 bg-gray-300 rounded-full mr-2"></div>
+                            <span class="text-sm text-gray-700">Dr. James Liu</span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Article 5 -->
+                <article class="article-card bg-white rounded-lg overflow-hidden">
+                    <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" 
+                         alt="Neural Interface" 
+                         class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <div class="flex items-center mb-3">
+                            <span class="bg-indigo-100 text-indigo-800 text-xs font-semibold px-2.5 py-0.5 rounded">Neurotech</span>
+                            <span class="text-gray-500 text-sm ml-3">July 17, 2025</span>
+                        </div>
+                        <h3 class="text-xl font-bold text-gray-900 mb-2">
+                            Neural Interface Allows Paralyzed Patients to Control Robotic Limbs with Thoughts
+                        </h3>
+                        <p class="text-gray-600 text-sm mb-4">
+                            A breakthrough brain-computer interface has restored mobility to paralyzed individuals through direct neural control of robotic exoskeletons.
+                        </p>
+                        <div class="flex items-center">
+                            <div class="w-6 h-6 bg-gray-300 rounded-full mr-2"></div>
+                            <span class="text-sm text-gray-700">Dr. Maya Patel</span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Article 6 -->
+                <article class="article-card bg-white rounded-lg overflow-hidden">
+                    <img src="https://images.unsplash.com/photo-1569163139394-de44cb5894c4?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" 
+                         alt="Carbon Capture" 
+                         class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <div class="flex items-center mb-3">
+                            <span class="bg-teal-100 text-teal-800 text-xs font-semibold px-2.5 py-0.5 rounded">Climate Solutions</span>
+                            <span class="text-gray-500 text-sm ml-3">July 16, 2025</span>
+                        </div>
+                        <h3 class="text-xl font-bold text-gray-900 mb-2">
+                            Direct Air Capture Technology Removes 1 Million Tons of CO2 Annually
+                        </h3>
+                        <p class="text-gray-600 text-sm mb-4">
+                            The world's largest direct air capture facility has begun operations, removing atmospheric CO2 equivalent to 40 million trees.
+                        </p>
+                        <div class="flex items-center">
+                            <div class="w-6 h-6 bg-gray-300 rounded-full mr-2"></div>
+                            <span class="text-sm text-gray-700">Emma Thompson</span>
+                        </div>
+                    </div>
+                </article>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="py-16 gradient-bg">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="logo-text text-3xl font-bold text-white mb-4">Stay Ahead of the Future</h2>
+            <p class="text-xl text-white/90 mb-8">
+                Get the latest breakthroughs in science and technology delivered to your inbox weekly.
+            </p>
+            <form class="max-w-md mx-auto">
+                <div class="flex">
+                    <input type="email" 
+                           placeholder="Enter your email" 
+                           class="flex-1 px-4 py-3 rounded-l-lg focus:outline-none focus:ring-2 focus:ring-white/50">
+                    <button type="submit" 
+                            class="bg-white text-gray-900 px-6 py-3 rounded-r-lg font-semibold hover:bg-gray-100 transition">
+                        Subscribe
+                    </button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div>
+                    <div class="flex items-center mb-4">
+                        <div class="w-8 h-8 gradient-bg rounded-lg flex items-center justify-center mr-2">
+                            <span class="text-white font-bold">F</span>
+                        </div>
+                        <span class="logo-text text-xl font-bold">Future Frontiers HQ</span>
+                    </div>
+                    <p class="text-gray-400">
+                        Exploring tomorrow's possibilities through cutting-edge science and technology.
+                    </p>
+                </div>
+                <div>
+                    <h3 class="font-semibold mb-4">Categories</h3>
+                    <ul class="space-y-2 text-gray-400">
+                        <li><a href="#" class="hover:text-white">Space Exploration</a></li>
+                        <li><a href="#" class="hover:text-white">AI & Robotics</a></li>
+                        <li><a href="#" class="hover:text-white">Future Tech</a></li>
+                        <li><a href="#" class="hover:text-white">Climate Solutions</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="font-semibold mb-4">About</h3>
+                    <ul class="space-y-2 text-gray-400">
+                        <li><a href="#" class="hover:text-white">Our Mission</a></li>
+                        <li><a href="#" class="hover:text-white">Team</a></li>
+                        <li><a href="#" class="hover:text-white">Contact</a></li>
+                        <li><a href="#" class="hover:text-white">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="font-semibold mb-4">Follow Us</h3>
+                    <p class="text-gray-400 mb-4">Stay connected for the latest updates</p>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-gray-400 hover:text-white">Twitter</a>
+                        <a href="#" class="text-gray-400 hover:text-white">LinkedIn</a>
+                        <a href="#" class="text-gray-400 hover:text-white">YouTube</a>
+                    </div>
+                </div>
+            </div>
+            <div class="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
+                <p>&copy; 2025 Future Frontiers HQ. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
